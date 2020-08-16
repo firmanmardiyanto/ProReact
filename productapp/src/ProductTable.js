@@ -3,6 +3,8 @@ import { ProductTableRow } from "./ProductTableRow";
 
 export class ProductTable extends Component {
   render() {
+    console.log(this.props.products);
+
     return (
       <table className="table table-sm table-striped table-bordered">
         <thead>
